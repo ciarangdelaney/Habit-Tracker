@@ -1,6 +1,5 @@
 import datetime
 import uuid
-from collections import defaultdict
 from flask import Blueprint, current_app, redirect, render_template, request, url_for
 
 pages = Blueprint("habits", __name__, template_folder="templates", static_folder="static")
